@@ -1,0 +1,139 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles */
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header styles */
+header {
+    margin: 0px 120px;
+}
+.banner {
+    background-image: url(../images/Circle-design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 52px;
+}
+.banner-description {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+/* banner button styles */
+.banner-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+
+/* nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+nav .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.nav-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav-buttons .nav-button {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* platforms section styles */
+.platforms {
+    margin: 50px 165px;
+}
+.platforms .logos {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+/* popular collection section styles */
+.popular-collection .section-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 30px 0;
+}
+.popular-collection .items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.popular-collection .items .item {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.popular-collection .items .item .item-title {
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.popular-collection .items .item .item-price {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.popular-collection .items .item p, span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+.popular-collection .items .item p {
+    margin-top: 3px;
+}
+.popular-collection .items .item .fa-star {
+    font-size: 16px;
+    color: #FB8200;
+}
+.popular-collection .items .item .fa-star-half-stroke {
+    font-size: 16px;
+    color: #FB8200;
+}
+
+/* transparent (see more) button styles */
+.transparent-button-container {
+    text-align: end;
+}
+.transparent-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #E02C6D;
+    border: none;
+    background-color: transparent;
+    border-radius: 41px;
+    margin: 50px 0;
+}
