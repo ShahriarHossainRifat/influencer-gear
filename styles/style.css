@@ -137,3 +137,29 @@ nav .nav-buttons {
     border-radius: 41px;
     margin: 50px 0;
 }
+
+/* featured product section style */
+.featured-product {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin: 50px 350px;
+}
+.featured-product .product-title {
+    font-weight: 700;
+    font-size: 38px;
+}
+.featured-product .product-description {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin: 16px 0;
+}
+.featured-product .product-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+}
