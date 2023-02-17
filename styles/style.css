@@ -196,3 +196,37 @@ footer {
     padding: 7px;
     border-radius: 45px;
 }
+
+/* --------------- Responsive Layout ---------------- */
+
+/* Mobile/Small Devices */
+@media screen and (max-width: 688px) {
+    .banner {
+        flex-direction: column-reverse;
+        background-image: none;
+    }
+    .nav-buttons {
+        flex-direction: column;
+    }
+    .banner-image {
+        width: 100%;
+    }
+    .popular-collection .items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .popular-collection .items .item {
+        width: 90%;
+    }
+    .popular-collection .items .item .item-thumbnail img {
+        width: auto;
+    }
+
+    header, .platforms, .featured-product, footer {
+        display: none;
+    }
+}
+
+/* Tablet/Medium Devices */
+@media screen and (min-width: 689px) and (max-width: 992px) {
+    
+}
